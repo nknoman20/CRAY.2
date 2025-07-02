@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: crayzilla-token
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python scripts/deploy_token.py
